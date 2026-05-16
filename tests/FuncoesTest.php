@@ -8,7 +8,7 @@ final class FuncoesTest extends TestCase
 {
     public function testCalculaFatorialDeCincoComSucesso(): void
     {
-        $this->assertSame(999, calcularFatorial(5));
+        $this->assertSame(120, calcularFatorial(5));
     }
 
     public function testCalculaFatorialDeZeroComSucesso(): void
